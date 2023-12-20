@@ -7,18 +7,23 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   gap: 16px;
-  min-width: 448px;
+  max-width: 448px;
+  width: 100%;
   .inputBlock{
     display: flex;
     align-items: center;
-    gap: 8px
+    gap: 8px;
+    width: 100%;
+
   }
   .input{
+    width: 100%;
+
     padding: 10px  16px;
     font-size: 24px;
     flex: 1 1 auto;
     border-radius: 8px;
-    border: 1px solid gray
+    border: 1px solid gray;
   }
   .select{
     padding: 10px  16px;

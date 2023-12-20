@@ -37,7 +37,7 @@ const CvBlock = () => {
         initial="hidden"
         whileInView="visible"
         variants={animationVariants}
-        viewport={{ once: true, amount: 0.1 }}
+        viewport={{ once: true, amount: 0.8 }}
         src={boy}
         alt="boy"
         className="sm:w-1/2 w-2/3 self-center" />
