@@ -1,3 +1,14 @@
+# Dear ITOP1000
+This test task was interesting and enjoyable to complete, thank you for that
+
+Stack:
+- React (I would have preferred Next.js, but the task required React)
+- Styled components (I like this library)
+- Framer-motion (added some animations for smooth appearance of components)
+- sonner https://sonner.emilkowal.ski/ (to display error messages)
+
+I've also added some additional UI components, hope you like them
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
