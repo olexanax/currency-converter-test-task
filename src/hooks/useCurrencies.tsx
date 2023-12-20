@@ -21,8 +21,11 @@ const useCurrencies = () => {
       })
       .catch((error) => {
         toast('Something went wrong : (', {
+          style: {
+            color: 'red',
+          },
           position: 'top-right',
-          duration: 2000,
+          duration: 5000,
         })
         setError(error);
         setLoading(false);
