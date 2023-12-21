@@ -37,7 +37,7 @@ const Header: React.FC<Props> = ({ data, currentCurr, loading, error }) => {
   const skeleton = (loading || error || !currencyContent) && (
     <Container>
       <Skeleton style={{ height: "32px" }}> </Skeleton>
-      <Skeleton style={{ height: "24px" }}> </Skeleton>
+      <Skeleton style={{ height: "30px" }}> </Skeleton>
     </Container>
   );
 
