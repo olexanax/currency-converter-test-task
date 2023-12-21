@@ -2,6 +2,7 @@
 import Header from '../Header/Header';
 import Converter from '../Converter/Converter';
 import CvBlock from 'components/CvBlock/CvBlock';
+import Snowfall from 'react-snowfall'
 //libs
 import { useEffect, useState } from 'react';
 import useCurrencies from 'hooks/useCurrencies';
@@ -36,6 +37,7 @@ function App() {
       <Converter {...{ currentCurr, setCurrentCurr, data, loading, error }} />
       <CvBlock />
       <Toaster />
+      <Snowfall />
     </Container>
   );
 }
